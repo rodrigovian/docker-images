@@ -1,8 +1,6 @@
 # Image
 FROM almalinux:9
 
-#CMD ["bash"]
-
 USER root
 
 # If must write build log
@@ -57,6 +55,9 @@ LABEL maintainer="Rodrigo Vian <rodrigovian@gmail.com>" \
       opensips.version=${OPENSIPS_VERSION}
 
 VOLUME "/etc/opensips"
+
+
+CMD ["/bin/bash"]
 
 # Optional
 #ENTRYPOINT ["/usr/sbin/opensips", "-f/etc/opensips/opensips.cfg", "-uopensips", "-gopensips", "-FE" ]
