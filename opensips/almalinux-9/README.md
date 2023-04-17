@@ -20,6 +20,7 @@
 
 **About opensips**  
 - /etc/opensips is clean  
+- modules in /usr/lib64/opensips  
 - command 'opensips' have /etc/opensips/opensips.cfg as default file  
 - Username: opensips / UID: 506  
 - Groupname: opensips / GID: 506  
