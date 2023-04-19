@@ -781,7 +781,7 @@ _msg
 
 _msgt "Install required packages for this opensips image"
 _msg
-cmd="dnf install $DNF_OPT $PACKAGE_MODULES_DEPENDENCY"
+cmd="dnf install $DNF_OPT $PACKAGE_MODULES_DEPENDENCY python3-setuptools"
 eval "$cmd"
 _msg "--------------------------------------------------------------------------------"
 _msg
